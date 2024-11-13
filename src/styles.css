@@ -12,6 +12,15 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 .section-container {
   max-width: var(--max-width);
   padding: 80px 15px;
@@ -31,4 +40,37 @@
   font-weight: 500;
   color: var(--text-light);
   text-align: center;
+}
+
+img {
+  /* display: flex; */
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  transition: all 250ms ease-in-out;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Home page */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.02);
+  padding: 0 80px;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+img.header-logo {
+  width: 200px;
 }
