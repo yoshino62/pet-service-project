@@ -1,0 +1,34 @@
+:root {
+  --primary-color: #c3eefa;
+  --text-dark: #333;
+  --text-light: #c9c9c9;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section-container {
+  max-width: var(--max-width);
+  padding: 80px 15px;
+  margin: auto;
+}
+
+.section-header {
+  font-size: 40px;
+  font-weight: 500;
+  color: var(--text-dark);
+  text-align: center;
+  line-height: 1.5;
+}
+
+.section-subheader {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-light);
+  text-align: center;
+}
