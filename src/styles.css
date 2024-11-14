@@ -1,5 +1,6 @@
 :root {
-  --primary-color: #c3eefa;
+  --primary-color: #4a90e2;
+  --secondary-color: #c3eefa;
   --text-dark: #333;
   --text-light: #c9c9c9;
   --white: #ffffff;
@@ -71,6 +72,82 @@ nav {
   left: 0;
 }
 
-img.header-logo {
-  width: 200px;
+nav img.header-logo {
+  width: 160px;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav ul.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 20px;
+  gap: 40px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  z-index: -1;
+  transition: all 250ms ease-in-out;
+}
+
+nav .nav-links a {
+  color: var(--text-dark);
+  position: relative;
+}
+
+nav .nav-links a:hover,
+nav .nav-links a.active {
+  color: var(--primary-color);
+}
+
+nav .nav-links a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  position: absolute;
+  bottom: -10px;
+  left: 2px;
+  transition: width 0.3s ease;
+}
+
+nav .nav-links a:hover::after,
+nav .nav-links a.active::after {
+  width: 100%;
+}
+
+nav .nav-menu-btn {
+  color: var(--text-dark);
+  font-size: 24px;
+  cursor: pointer;
+  padding-left: 20px;
+  position: relative;
+}
+
+nav .nav-menu-btn:hover {
+  color: var(--primary-color);
+}
+
+nav .nav-menu-btn::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  position: absolute;
+  bottom: -10px;
+  left: 12px;
+  transition: width 0.3s ease;
+}
+
+nav .nav-menu-btn:hover::after {
+  width: 100%;
 }
