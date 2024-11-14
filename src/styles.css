@@ -125,6 +125,11 @@ nav .nav-links a.active::after {
   width: 100%;
 }
 
+#nav-links .active {
+  display: flex;
+  flex-direction: column;
+}
+
 nav .nav-menu-btn {
   color: var(--text-dark);
   font-size: 24px;
