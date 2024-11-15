@@ -2,50 +2,75 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <title>Pawfect Pet Place | Home</title>
-    <link rel="stylesheet" href="src/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Pawfect Pet Place | Home</title>
+  <link rel="stylesheet" href="src/styles.css">
 </head>
 
 <body>
-    <div class="container">
+  <div class="container">
 
-        <section id="header">
+    <section id="header">
+      <a href="#">
+        <img src="images/logo.png" class="header-logo" alt="Logo" width="160px" />
+      </a>
 
-            <a href="#">
-                <img src="images/logo.png" class="header-logo" alt="Logo" width="160px" />
-            </a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html" class="active" target="_blank">Home</a></li>
+          <li><a href="about.html" target="_blank">About</a></li>
+          <li><a href="store.html" target="_blank">Store</a></li>
+          <li><a href="service.html" target="_blank">Service</a></li>
+          <li><a href="contact.html" target="_blank">Contact</a></li>
+          <li id="lg-bag"><a href="cart.html" target="_blank"><i class="ri-shopping-cart-line"></i></a></li>
+          <a href="#" id="close"><i class="ri-close-large-line"></i></a>
+        </ul>
+      </div>
 
-            <div>
-                <ul id="navbar">
-                    <li><a href="index.html" class="active" target="_blank">Home</a></li>
-                    <li><a href="about.html" target="_blank">About</a></li>
-                    <li><a href="store.html" target="_blank">Store</a></li>
-                    <li><a href="service.html" target="_blank">Service</a></li>
-                    <li><a href="contact.html" target="_blank">Contact</a></li>
-                    <li id="lg-bag"><a href="cart.html" target="_blank"><i class="ri-shopping-cart-line"></i></a></li>
-                    <a href="#" id="close"><i class="ri-close-large-line"></i></a>
-                </ul>
-            </div>
+      <div id="mobile">
 
-            <div id="mobile">
+        <a href="cart.html" target="_blank"><i class="ri-shopping-cart-line"></i></a>
+        <i id="bar" class="ri-menu-line"></i>
 
-                <a href="cart.html" target="_blank"><i class="ri-shopping-cart-line"></i></a>
-                <i id="bar" class="ri-menu-line"></i>
+      </div>
+    </section>
 
-            </div>
+    <section id="hero">
 
-        </section>
+      <div id="hero_container" class="section_container">
 
-    </div>
-    <script src="src/app.js"></script>
+        <div id="hero_content">
+
+          <h4>Welcome to</h4>
+          <h1>Pawfect Pet Place</h1>
+          <h2>Everything Your Pet Needs Under One Roof</h2>
+          <p>
+            Whether it's expert vet care, pampering grooming services, cozy boarding, or trendy dog apparel,
+            we're here to help your furry friends thrive in style and comfort.
+          </p>
+
+          <div id="hero-btn">
+            <button>
+              Explore Our Services
+              <span><i class="ri-arrow-right-line"></i></span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+  <script src="src/app.js"></script>
 </body>
 
 </html>
