@@ -106,6 +106,10 @@ a {
   align-items: center;
 }
 
+#close {
+  display: none;
+}
+
 /* Media Query */
 
 @media (max-width: 799px) {
@@ -145,8 +149,13 @@ a {
 
   #close {
     color: var(--text-dark);
+    display: initial;
     position: absolute;
     top: 30px;
     left: 30px;
+  }
+
+  #lg-bag {
+    display: none;
   }
 }
