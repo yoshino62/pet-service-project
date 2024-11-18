@@ -180,9 +180,6 @@ a {
   margin-bottom: 18px;
 }
 
-#hero-btn {
-}
-
 #hero-btn button {
   background-color: var(--accent-color);
   color: var(--text-dark);
@@ -200,10 +197,21 @@ a {
   transition: all 250ms ease-in-out;
 }
 
+#hero-btn button span {
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  border-radius: 100%;
+  padding: 5px 9px;
+}
+
 #hero-btn button:hover {
   cursor: pointer;
   opacity: 0.8;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#hero-btn button:hover span {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* Media Query */
