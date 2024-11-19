@@ -23,3 +23,7 @@ const scrollRevealOption = {
 ScrollReveal().reveal("#hero_content h4", {
   ...scrollRevealOption,
 });
+ScrollReveal().reveal("#hero_content h1", {
+  ...scrollRevealOption,
+  delay: 500,
+});
