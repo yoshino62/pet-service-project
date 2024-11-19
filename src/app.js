@@ -27,3 +27,16 @@ ScrollReveal().reveal("#hero_content h1", {
   ...scrollRevealOption,
   delay: 500,
 });
+ScrollReveal().reveal("#hero_content h2", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+ScrollReveal().reveal("#hero_content p", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
+ScrollReveal().reveal("#hero-btn", {
+  ...scrollRevealOption,
+  delay: 2000,
+});
