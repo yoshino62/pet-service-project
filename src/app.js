@@ -13,3 +13,13 @@ if (close) {
     nav.classList.remove("active");
   });
 }
+
+const scrollRevealOption = {
+  distance: "50px",
+  origin: "bottom",
+  duration: 1500,
+};
+
+ScrollReveal().reveal("#hero_content h4", {
+  ...scrollRevealOption,
+});
