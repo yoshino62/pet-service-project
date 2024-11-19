@@ -2,6 +2,7 @@
   --primary-color: #4a90e2;
   --secondary-color: #c3eefa;
   --accent-color: #f7c948;
+  --econdary-accent-color: #fbe089;
   --text-dark: #333;
   --text-light: #c9c9c9;
   --white: #ffffff;
@@ -212,6 +213,118 @@ a {
 
 #hero-btn button:hover span {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Home page | Intro section */
+
+#intro-header {
+  margin-top: 80px;
+}
+
+#intro-header p,
+#intro-header h2 {
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+#intro-header p {
+  font-size: 22px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+#intro-header h2 {
+  font-size: 48px;
+  margin-bottom: 80px;
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 40px 50px 10px 50px;
+}
+
+.intro-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 350px;
+  padding: 16px;
+}
+
+.intro-card div {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 16px;
+  padding: 10px;
+}
+
+.intro-card img {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 20px;
+  width: 160px;
+  object-fit: cover;
+}
+
+.intro-card:nth-child(1) {
+  background-color: var(--secondary-color);
+  border-radius: 100%;
+}
+
+.intro-card:nth-child(2) {
+  background-color: #f8a9a0;
+  border-radius: 100%;
+}
+
+.intro-card:nth-child(3) {
+  background-color: var(--econdary-accent-color);
+  border-radius: 100%;
+}
+
+.intro-card h4 {
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.intro-card p {
+  font-size: 16px;
+  opacity: 0.7;
+  padding-bottom: 20px;
+}
+
+.intro-card a {
+  background-color: var(--white);
+  color: var(--text-dark);
+  font-size: 14px;
+  display: inline-block;
+
+  border-radius: 80px;
+  padding: 8px 10px;
+  transition: all 200ms ease-in-out;
+}
+
+.intro-card:nth-child(1) a:hover {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.intro-card:nth-child(2) a:hover {
+  color: #f38375;
+  border: 1px solid #f38375;
+}
+
+.intro-card:nth-child(3) a:hover {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 /* Media Query */
