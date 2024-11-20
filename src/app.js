@@ -40,3 +40,7 @@ ScrollReveal().reveal("#hero-btn", {
   ...scrollRevealOption,
   delay: 2000,
 });
+ScrollReveal().reveal(".intro-card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
