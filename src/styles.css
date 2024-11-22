@@ -408,10 +408,6 @@ a {
   }
 }
 
-#about h2 {
-  color: red;
-}
-
 @media (max-width: 1024px) {
   body {
     overflow-x: hidden;
