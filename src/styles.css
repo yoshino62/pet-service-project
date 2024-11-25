@@ -330,6 +330,9 @@ a {
 }
 
 /* Home page | About section */
+.about-container {
+  padding: 20px 80px;
+}
 
 .about-header h2 {
   font-size: 40px;
@@ -338,7 +341,7 @@ a {
 
 .about-row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 32px;
   overflow: hidden;
   margin-top: 32px;
@@ -350,7 +353,8 @@ a {
 
 .about-image {
   flex: 1;
-  max-width: 400px;
+  width: 300px;
+  max-width: unset;
   margin-inline: auto;
 }
 
@@ -374,8 +378,17 @@ a {
   max-width: 40px;
 }
 
+.about-row {
+  flex-direction: row;
+  align-items: center;
+}
+
 .about-row:nth-child(2) .about-content span {
   background-color: var(--secondary-color);
+}
+
+.about-row:nth-child(3) {
+  flex-direction: row-reverse;
 }
 
 .about-row:nth-child(3) .about-content span {
@@ -567,5 +580,11 @@ a {
 
   .intro-card a {
     font-size: 16px;
+  }
+
+  /* Home page | About section */
+
+  .about-container {
+    padding: 20px 40px;
   }
 }
