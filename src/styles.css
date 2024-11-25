@@ -403,17 +403,19 @@ a {
 .about-content p {
   color: var(--text-dark);
   line-height: 1.5;
+  text-align: start;
   max-width: 450px;
   margin-inline: auto;
 }
 
 .about-content h4 {
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 32px;
 }
 
 .about-content p {
+  font-size: 20px;
   opacity: 0.7;
 }
 
@@ -586,5 +588,29 @@ a {
 
   .about-container {
     padding: 20px 40px;
+  }
+
+  .about-header h2 {
+    font-size: 32px;
+    margin-bottom: 80px;
+  }
+
+  .about-content span {
+    width: 4s0px;
+    margin-bottom: 10px;
+  }
+
+  .about-content h4,
+  .about-content p {
+    text-align: start;
+  }
+
+  .about-content h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .about-content p {
+    font-size: 12px;
   }
 }
