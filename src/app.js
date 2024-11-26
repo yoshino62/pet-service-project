@@ -57,3 +57,18 @@ ScrollReveal().reveal(".about-row:nth-child(4) .about-image img", {
   ...scrollRevealOption,
   origin: "left",
 });
+
+ScrollReveal().reveal(".about-content span", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal(".about-content h4", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+ScrollReveal().reveal(".about-content p", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
