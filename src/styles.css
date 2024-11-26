@@ -341,7 +341,7 @@ a {
 
 .about-row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 32px;
   overflow: hidden;
   margin-top: 32px;
@@ -354,8 +354,6 @@ a {
 .about-image {
   flex: 1;
   width: 300px;
-  max-width: unset;
-  margin-inline: auto;
 }
 
 .about-content {
@@ -508,6 +506,33 @@ a {
   }
 
   /* Home page | About section */
+  .about-container {
+    padding: 10px 15px;
+  }
+
+  .about-header p {
+    font-size: 24px;
+  }
+
+  .about-container .about-header h2 {
+    font-size: 24px;
+  }
+
+  .about-row {
+    display: block;
+  }
+
+  .about-image {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 100%;
+  }
+
+  .about-content {
+    display: block;
+    text-align: center;
+    padding: 0 15px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -608,7 +633,7 @@ a {
   }
 
   .about-content span {
-    width: 4s0px;
+    width: 80px;
     margin-bottom: 10px;
   }
 
@@ -624,5 +649,19 @@ a {
 
   .about-content p {
     font-size: 12px;
+  }
+
+  .about-row {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-image {
+    max-width: unset;
+    margin-inline: auto;
+  }
+
+  .about-content {
+    text-align: left;
   }
 }
