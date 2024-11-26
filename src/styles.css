@@ -381,6 +381,8 @@ a {
 .about-row {
   flex-direction: row;
   align-items: center;
+  padding-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .about-row:nth-child(2) .about-content span {
@@ -464,6 +466,14 @@ a {
   }
 
   /* Home page | Intro section */
+  .section-header p {
+    font-size: 14px;
+  }
+
+  .section-header h2 {
+    font-size: 24px;
+    padding: 0 20px;
+  }
 
   .intro-grid {
     grid-template-columns: 1fr;
@@ -496,6 +506,8 @@ a {
     font-size: 22px;
     padding-bottom: 10px;
   }
+
+  /* Home page | About section */
 }
 
 @media (max-width: 1024px) {
