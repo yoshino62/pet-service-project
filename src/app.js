@@ -44,3 +44,16 @@ ScrollReveal().reveal(".intro-card", {
   ...scrollRevealOption,
   interval: 500,
 });
+ScrollReveal().reveal(".about-row:nth-child(2) .about-image img ", {
+  ...scrollRevealOption,
+  origin: "left",
+});
+ScrollReveal().reveal(".about-row:nth-child(3) .about-image img", {
+  ...scrollRevealOption,
+  origin: "right",
+});
+
+ScrollReveal().reveal(".about-row:nth-child(4) .about-image img", {
+  ...scrollRevealOption,
+  origin: "left",
+});
