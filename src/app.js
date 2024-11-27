@@ -72,3 +72,8 @@ ScrollReveal().reveal(".about-content p", {
   ...scrollRevealOption,
   delay: 1500,
 });
+
+ScrollReveal().reveal(".store-card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
