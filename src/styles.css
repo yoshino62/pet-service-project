@@ -454,8 +454,8 @@ a {
 
 .store-card h4 {
   color: var(--text-dark);
-  font-size: 38px;
-  font-weight: 700;
+  font-size: 28px;
+  font-weight: 600;
   margin-block: 20px 15px;
 }
 
