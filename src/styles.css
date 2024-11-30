@@ -481,6 +481,12 @@ a {
   cursor: pointer;
 }
 
+/* Home page | SErvice section */
+#service .section-header h2 {
+  font-size: 38px;
+  margin-bottom: 80px;
+}
+
 /* Media Query */
 
 @media (max-width: 540px) {
