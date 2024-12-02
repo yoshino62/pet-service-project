@@ -77,3 +77,8 @@ ScrollReveal().reveal(".store-card", {
   ...scrollRevealOption,
   interval: 500,
 });
+
+ScrollReveal().reveal(".service-card", {
+  duration: 1000,
+  interval: 500,
+});
