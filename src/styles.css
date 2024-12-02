@@ -496,6 +496,27 @@ a {
   margin-top: 64px;
 }
 
+.service-card div {
+  background-color: var(--secondary-color);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  width: 120px;
+  margin-bottom: 32px;
+  margin-inline: auto;
+}
+
+.service-card img {
+  max-width: 50px;
+}
+
+.service-card p {
+  font-weight: 500;
+  opacity: 0.5;
+}
+
 /* Media Query */
 
 @media (max-width: 540px) {
