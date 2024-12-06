@@ -520,6 +520,11 @@ a {
 /* Home page | Client section */
 #client {
   background-color: #fcd4d0;
+  width: 100%;
+}
+
+#client .section-header {
+  padding-top: 80px;
 }
 
 .swiper {
