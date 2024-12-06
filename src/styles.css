@@ -236,6 +236,7 @@ a {
 
 .section-header h2 {
   font-size: 48px;
+  font-weight: 500;
   margin-bottom: 80px;
 }
 
@@ -573,6 +574,38 @@ a {
   font-size: 18px;
   line-height: 1.5;
   padding: 10px 20px;
+}
+
+#instagram .section-header {
+  padding: 5px 50px;
+}
+
+/* Home page | Instagram section */
+
+#instagram .section-header p {
+  background-color: var(--primary-color);
+  color: var(--white);
+  max-width: fit-content;
+  padding: 6px 20px;
+  margin-bottom: 16px;
+  border-radius: 80px;
+}
+
+#instagram .section-header h2 {
+  text-align: left;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--text-light);
+}
+
+.instagram-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.instagram-grid img {
+  width: 100%;
+  height: auto;
 }
 
 /* Media Query */
