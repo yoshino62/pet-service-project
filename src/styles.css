@@ -576,11 +576,11 @@ a {
   padding: 10px 20px;
 }
 
+/* Home page | Instagram section */
+
 #instagram .section-header {
   padding: 5px 50px;
 }
-
-/* Home page | Instagram section */
 
 #instagram .section-header p {
   background-color: var(--primary-color);
@@ -766,6 +766,42 @@ a {
     padding: 10px 20px;
   }
 
+  /* Home page | Client section */
+  #client .section-header {
+    padding-top: 60px;
+    margin-top: 20px;
+  }
+
+  #client .section-header h2 {
+    margin-bottom: 20px;
+  }
+
+  .swiper {
+    margin: 20px auto;
+  }
+
+  .client-card {
+    padding: 25px 10px;
+    margin: 20px;
+  }
+
+  .client-details img {
+    max-width: 100px;
+    width: 100px;
+    height: 80px;
+  }
+
+  .client-details h5 {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .client-card p {
+    font-size: 12px;
+
+    padding: 10px 10px;
+  }
+
   /* Home page | Instagram section */
 
   #instagram .section-header {
@@ -930,6 +966,32 @@ a {
   .store-card a {
     font-size: 16px;
   }
+
+  /* Home page | client section */
+
+  .client-card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .client-details img {
+    width: 100px;
+    height: 80px;
+  }
+
+  .client-details h4 {
+    font-size: 20px;
+  }
+
+  .client-details h5 {
+    font-size: 16px;
+  }
+
+  .client-card p {
+    font-size: 16px;
+  }
+
+  /* Home page | Instagram section */
 
   .instagram-grid {
     grid-template-columns: repeat(2, 1fr);
