@@ -930,4 +930,8 @@ a {
   .store-card a {
     font-size: 16px;
   }
+
+  .instagram-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
