@@ -82,3 +82,9 @@ ScrollReveal().reveal(".service-card", {
   duration: 1000,
   interval: 500,
 });
+
+const swiper = new Swiper(".swiper", {
+  slidesPerView: 3,
+  spaceBetween: 20,
+  loop: true,
+});
