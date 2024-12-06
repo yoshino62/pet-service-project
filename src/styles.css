@@ -766,6 +766,13 @@ a {
     padding: 10px 20px;
   }
 
+  /* Home page | Service section */
+
+  #service .section-header h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
   /* Home page | Client section */
   #client .section-header {
     padding-top: 60px;
