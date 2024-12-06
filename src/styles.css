@@ -518,6 +518,57 @@ a {
 }
 
 /* Home page | Client section */
+#client {
+  background-color: #fcd4d0;
+}
+
+.swiper {
+  width: 80%;
+  margin-top: 60px;
+}
+
+.swiper-slide {
+  min-width: 375px;
+}
+
+.client-card {
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 25px 40px;
+  margin: 20px;
+  transition: 300ms;
+}
+
+.client-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.client-details img {
+  max-width: 120px;
+  width: 120px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.client-details h4 {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.client-details h5 {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+.client-card p {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 10px 20px;
+}
 
 /* Media Query */
 
