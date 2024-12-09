@@ -608,6 +608,13 @@ a {
   height: auto;
 }
 
+/* Home page | Footer section */
+
+.footer-logo img {
+  width: 160px;
+  height: auto;
+}
+
 /* Media Query */
 
 @media (max-width: 540px) {
