@@ -663,12 +663,12 @@ a {
   outline: none;
   border: none;
   border-radius: 80px;
-  cursor: pointer;
 }
 
 .footer-col form button:hover {
   cursor: pointer;
   opacity: 0.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0 0.06);
 }
 
 .footer-links {
@@ -679,7 +679,7 @@ a {
 .footer-links a {
   color: var(--text-dark);
   font-weight: 500;
-  transition: all 300ms ease-in-out;
+  transition: all 250ms ease-in-out;
 }
 
 .footer-links a:hover {
