@@ -2,7 +2,7 @@
   --primary-color: #4a90e2;
   --secondary-color: #c3eefa;
   --accent-color: #f7c948;
-  --econdary-accent-color: #fbe089;
+  --secondary-accent-color: #fbe089;
   --text-dark: #333;
   --text-light: #c9c9c9;
   --white: #ffffff;
@@ -289,7 +289,7 @@ a {
 }
 
 .intro-card:nth-child(3) {
-  background-color: var(--econdary-accent-color);
+  background-color: var(--secondary-accent-color);
   border-radius: 100%;
 }
 
@@ -397,7 +397,7 @@ a {
 }
 
 .about-row:nth-child(4) .about-content span {
-  background-color: var(--econdary-accent-color);
+  background-color: var(--secondary-accent-color);
 }
 
 .about-content h4,
@@ -466,7 +466,7 @@ a {
 }
 
 .store-card a {
-  background-color: var(--econdary-accent-color);
+  background-color: var(--accent-color);
   color: var(--text-dark);
   font-size: 20px;
   display: inline-block;
@@ -583,8 +583,8 @@ a {
 }
 
 #instagram .section-header p {
-  background-color: var(--primary-color);
-  color: var(--white);
+  background-color: var(--accent-color);
+  color: var(--text-dark);
   max-width: fit-content;
   padding: 6px 20px;
   margin-bottom: 16px;
@@ -630,17 +630,19 @@ footer .header-logo {
 
 .footer-col h4 {
   color: var(--text-dark);
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   margin-bottom: 16px;
 }
 
-footer .address h4 {
+footer #address,
+footer #newsletter {
   margin-top: 140px;
 }
 
-footer .Newsletter h4 {
-  margin-top: 140px;
+footer #inquiries,
+footer #follow {
+  margin-top: 30px;
 }
 
 .footer-col p {
@@ -683,9 +685,16 @@ footer .Newsletter h4 {
 }
 
 .footer-col form button:hover {
+  background-color: var(--secondary-color);
   cursor: pointer;
-  opacity: 0.5;
-  box-shadow: 0 5px 15px rgba(0, 0, 0 0.06);
+}
+
+.footer-col .ri-arrow-right-line {
+  color: var(--white);
+}
+
+.footer-col .ri-arrow-right-line:hover {
+  color: var(--text-dark);
 }
 
 .footer-links {
@@ -729,12 +738,13 @@ footer .Newsletter h4 {
   cursor: pointer;
 }
 
-.footer-bar {
+footer .footer-bar {
   color: var(--text-light);
   font-size: 14px;
+  display: block;
   text-align: center;
   padding: 16px;
-  margin-bottom: 40px;
+  margin: 80px auto;
 }
 
 .footer-bar a {
