@@ -28,7 +28,7 @@ body {
 
 .section-container {
   max-width: var(--max-width);
-  padding: 80px 15px;
+  padding: 60px 15px;
   margin: auto;
 }
 
@@ -132,18 +132,18 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 760px;
+  height: 860px;
 }
 
 #hero_content {
-  margin: 0 80px;
-  padding-top: 60px;
+  margin: 0 40px;
+  padding-top: 10px;
 }
 
 #hero_content h4 {
   background-color: var(--accent-color);
   color: var(--text-dark);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.5;
   max-width: fit-content;
@@ -155,36 +155,36 @@ a {
 
 #hero_content h1 {
   color: var(--primary-color);
-  font-size: 65px;
+  font-size: 72px;
   font-weight: 800;
   line-height: 1.5;
-  letter-spacing: 2px;
-  margin: 40px 0 18px 0;
+  letter-spacing: 3px;
+  margin: 40px 0 40px 0;
   text-align: center;
 }
 
 #hero_content h2 {
   color: var(--white);
-  font-size: 24px;
+  font-size: 34px;
   font-weight: 600;
   line-height: 1.5;
   text-align: center;
-  margin-bottom: 18px;
+  margin: 40px 0 80px 0;
 }
 
 #hero_content P {
   color: var(--white);
   opacity: 0.8;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 600;
   line-height: 1.5;
-  margin-bottom: 18px;
+  margin: 40px 0 80px 0;
 }
 
 #hero-btn button {
   background-color: var(--accent-color);
   color: var(--text-dark);
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.5;
   display: block;
   align-items: center;
@@ -193,8 +193,8 @@ a {
   border: none;
   border-radius: 80px;
   padding-block: 0.5rem;
-  padding-inline: 1.5rem 1rem;
-  margin: 110px auto;
+  padding-inline: 1.7rem 1.2rem;
+  margin: 180px auto;
   transition: all 250ms ease-in-out;
 }
 
@@ -790,12 +790,12 @@ footer .footer-bar {
 
   #hero_content h2 {
     font-size: 14px;
-    margin-bottom: 15px;
+    margin: 10px 0 10px 0;
   }
 
   #hero_content P {
     font-size: 12px;
-    margin-bottom: 25px;
+    margin: 10px 0 10px 0;
   }
 
   #hero-btn button {
