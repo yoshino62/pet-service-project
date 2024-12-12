@@ -174,10 +174,10 @@ a {
 
 #hero_content P {
   color: var(--white);
-  opacity: 0.8;
   font-size: 28px;
   font-weight: 600;
   line-height: 1.5;
+  padding: 20px 25px;
   margin: 40px 0 80px 0;
 }
 
@@ -194,7 +194,7 @@ a {
   border-radius: 80px;
   padding-block: 0.5rem;
   padding-inline: 1.7rem 1.2rem;
-  margin: 180px auto;
+  margin: 100px auto;
   transition: all 250ms ease-in-out;
 }
 
@@ -1076,7 +1076,7 @@ footer .footer-bar {
   }
 
   #hero_container {
-    padding: 40px 10px;
+    padding: 80px 10px;
   }
 
   #hero_content {
@@ -1091,13 +1091,24 @@ footer .footer-bar {
 
   #hero_content h1 {
     font-size: 48px;
-    margin: 20px 0 10px 0;
+    margin: 40px 0 10px 0;
   }
 
   #hero_content h2 {
     font-size: 24px;
-
     margin: 10px 0 20px 0;
+  }
+
+  #hero_content P {
+    font-size: 22px;
+    margin: 20px;
+  }
+
+  #hero-btn button {
+    font-size: 24px;
+    padding-block: 0.5rem;
+    padding-inline: 1.7rem 1.2rem;
+    margin: 40px auto;
   }
 
   /* Home page | Intro section */
