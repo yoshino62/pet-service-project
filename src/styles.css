@@ -1017,6 +1017,10 @@ footer .footer-bar {
     overflow-x: hidden;
   }
 
+  .section-container {
+    padding: 30px 15px;
+  }
+
   #header {
     padding: 5px 10px;
   }
@@ -1195,6 +1199,20 @@ footer .footer-bar {
     font-size: 16px;
   }
 
+  /* Home page | Service section */
+
+  #service .section-header h2 {
+    font-size: 24px;
+  }
+
+  .service-flex {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    padding: 0 20px 0 20px;
+    margin: 50px 10px 0 10px;
+  }
+
   /* Home page | client section */
 
   .client-card {
@@ -1221,7 +1239,25 @@ footer .footer-bar {
 
   /* Home page | Instagram section */
 
+  #instagram .section-header {
+    margin-top: 40px;
+  }
+
+  #instagram .section-header p {
+    font-size: 16px;
+    padding: 6px 20px;
+    margin-bottom: 16px;
+    border-radius: 80px;
+  }
+
+  #instagram .section-header h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
   .instagram-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /* Home page | Footer section */
 }
