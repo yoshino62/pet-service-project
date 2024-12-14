@@ -739,12 +739,11 @@ footer #follow {
   color: var(--text-light);
   font-size: 14px;
   display: block;
-  text-align: center;
+  margin: 0 auto;
   padding: 40px;
 }
-
 .footer-bar p {
-  margin: 0;
+  text-align: center;
 }
 
 .footer-bar a {
@@ -1016,16 +1015,6 @@ footer #follow {
 
   .footer-socials a {
     font-size: 12px;
-  }
-
-  .footer-bar {
-    display: grid;
-    place-items: center;
-    text-align: center;
-  }
-
-  .footer-bar p {
-    margin: 0;
   }
 }
 
