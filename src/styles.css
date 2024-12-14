@@ -716,7 +716,7 @@ footer #follow {
 
 .footer-socials {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 10px;
 }
 
@@ -735,13 +735,16 @@ footer #follow {
   cursor: pointer;
 }
 
-footer .footer-bar {
+.footer-bar {
   color: var(--text-light);
   font-size: 14px;
   display: block;
   text-align: center;
-  padding: 16px;
-  margin: 80px auto;
+  padding: 40px;
+}
+
+.footer-bar p {
+  margin: 0;
 }
 
 .footer-bar a {
@@ -753,6 +756,277 @@ footer .footer-bar {
 .footer-bar a:hover {
   cursor: pointer;
   color: var(--secondary-color);
+}
+
+@media (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .section-container {
+    padding: 30px 15px;
+  }
+
+  #header {
+    padding: 5px 10px;
+  }
+
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #e6e8f0;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    padding: 80px 0 0 10px;
+    transition: right 0.3s ease;
+  }
+
+  #navbar.active {
+    right: 0;
+  }
+
+  #navbar li {
+    margin-bottom: 30px;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i {
+    color: var(--text-dark);
+    font-size: 24px;
+    padding-right: 20px;
+  }
+
+  #close {
+    color: var(--text-dark);
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+
+  #lg-bag {
+    display: none;
+  }
+
+  /* Home page | Hero section */
+
+  #hero {
+    width: 100%;
+    height: 580px;
+  }
+
+  #hero_container {
+    padding: 80px 10px;
+  }
+
+  #hero_content {
+    margin: 0 20px;
+    padding-top: 0;
+  }
+
+  #hero_content h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  #hero_content h1 {
+    font-size: 48px;
+    margin: 40px 0 10px 0;
+  }
+
+  #hero_content h2 {
+    font-size: 24px;
+    margin: 10px 0 20px 0;
+  }
+
+  #hero_content P {
+    font-size: 22px;
+    margin: 20px;
+  }
+
+  #hero-btn button {
+    font-size: 24px;
+    padding-block: 0.5rem;
+    padding-inline: 1.7rem 1.2rem;
+    margin: 40px auto;
+  }
+
+  /* Home page | Intro section */
+
+  .intro-grid {
+    grid-template-columns: 1fr;
+    gap: 80px;
+  }
+
+  .intro-card {
+    max-width: 450px;
+  }
+
+  .intro-card h4 {
+    font-size: 18px;
+  }
+
+  .intro-card p {
+    font-size: 16px;
+  }
+
+  .intro-card a {
+    font-size: 16px;
+  }
+
+  /* Home page | About section */
+
+  .about-container {
+    padding: 20px 40px;
+  }
+
+  .about-header h2 {
+    font-size: 32px;
+    margin-bottom: 80px;
+  }
+
+  .about-content span {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  .about-content h4,
+  .about-content p {
+    text-align: start;
+  }
+
+  .about-content h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .about-content p {
+    font-size: 12px;
+  }
+
+  .about-row {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-image {
+    max-width: unset;
+    margin-inline: auto;
+  }
+
+  .about-content {
+    text-align: left;
+  }
+
+  /* Home page | Store section */
+  #store .section-header h2 {
+    font-size: 32px;
+  }
+
+  .store-card h4 {
+    font-size: 24px;
+  }
+
+  .store-card p {
+    font-size: 16px;
+  }
+
+  .store-card a {
+    font-size: 16px;
+  }
+
+  /* Home page | Service section */
+
+  #service .section-header h2 {
+    font-size: 24px;
+  }
+
+  .service-flex {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 0 20px 0 20px;
+    margin: 50px 10px 0 10px;
+  }
+
+  /* Home page | client section */
+
+  .client-card {
+    width: 80%;
+    padding: 20px;
+  }
+
+  .client-details img {
+    width: 100px;
+    height: 80px;
+  }
+
+  .client-details h4 {
+    font-size: 20px;
+  }
+
+  .client-details h5 {
+    font-size: 16px;
+  }
+
+  .client-card p {
+    font-size: 16px;
+  }
+
+  /* Home page | Instagram section */
+
+  #instagram .section-header {
+    margin-top: 40px;
+  }
+
+  #instagram .section-header p {
+    font-size: 16px;
+    padding: 6px 20px;
+    margin-bottom: 16px;
+    border-radius: 80px;
+  }
+
+  #instagram .section-header h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .instagram-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Home page | Footer section */
+  #footer .section-container {
+    padding: 30px 25px;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-socials a {
+    font-size: 12px;
+  }
+
+  .footer-bar {
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+
+  .footer-bar p {
+    margin: 0;
+  }
 }
 
 /* Media Query */
@@ -1005,282 +1279,13 @@ footer .footer-bar {
     margin-bottom: 20px;
   }
 
-  .instagram-grid {
-    grid-template-columns: 1fr;
-  }
-
   /* Home page | Footer section */
-  .footer-socials {
-    grid-template-columns: repeat(5, 1fr);
-  }
-
-  footer .footer-bar {
-    color: var(--text-light);
-    font-size: 8px;
-    display: block;
-    text-align: center;
-    padding: 16px;
-    margin: 80px auto;
-  }
-}
-
-@media (max-width: 1024px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  .section-container {
-    padding: 30px 15px;
-  }
-
-  #header {
-    padding: 5px 10px;
-  }
-
-  #navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    background-color: #e6e8f0;
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    right: -300px;
-    height: 100vh;
-    width: 300px;
-    padding: 80px 0 0 10px;
-    transition: right 0.3s ease;
-  }
-
-  #navbar.active {
-    right: 0;
-  }
-
-  #navbar li {
-    margin-bottom: 30px;
-  }
-
-  #mobile {
-    display: flex;
-    align-items: center;
-  }
-
-  #mobile i {
-    color: var(--text-dark);
-    font-size: 24px;
-    padding-right: 20px;
-  }
-
-  #close {
-    color: var(--text-dark);
-    display: initial;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-  }
-
-  #lg-bag {
-    display: none;
-  }
-
-  /* Home page | Hero section */
-
-  #hero {
-    width: 100%;
-    height: 580px;
-  }
-
-  #hero_container {
-    padding: 80px 10px;
-  }
-
-  #hero_content {
-    margin: 0 20px;
-    padding-top: 0;
-  }
-
-  #hero_content h4 {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-
-  #hero_content h1 {
-    font-size: 48px;
-    margin: 40px 0 10px 0;
-  }
-
-  #hero_content h2 {
-    font-size: 24px;
-    margin: 10px 0 20px 0;
-  }
-
-  #hero_content P {
-    font-size: 22px;
-    margin: 20px;
-  }
-
-  #hero-btn button {
-    font-size: 24px;
-    padding-block: 0.5rem;
-    padding-inline: 1.7rem 1.2rem;
-    margin: 40px auto;
-  }
-
-  /* Home page | Intro section */
-
-  .intro-grid {
-    grid-template-columns: 1fr;
-    gap: 80px;
-  }
-
-  .intro-card {
-    max-width: 450px;
-  }
-
-  .intro-card h4 {
-    font-size: 18px;
-  }
-
-  .intro-card p {
-    font-size: 16px;
-  }
-
-  .intro-card a {
-    font-size: 16px;
-  }
-
-  /* Home page | About section */
-
-  .about-container {
-    padding: 20px 40px;
-  }
-
-  .about-header h2 {
-    font-size: 32px;
-    margin-bottom: 80px;
-  }
-
-  .about-content span {
-    width: 80px;
-    margin-bottom: 10px;
-  }
-
-  .about-content h4,
-  .about-content p {
-    text-align: start;
-  }
-
-  .about-content h4 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-
-  .about-content p {
-    font-size: 12px;
-  }
-
-  .about-row {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .about-image {
-    max-width: unset;
-    margin-inline: auto;
-  }
-
-  .about-content {
-    text-align: left;
-  }
-
-  /* Home page | Store section */
-  #store .section-header h2 {
-    font-size: 32px;
-  }
-
-  .store-card h4 {
-    font-size: 24px;
-  }
-
-  .store-card p {
-    font-size: 16px;
-  }
-
-  .store-card a {
-    font-size: 16px;
-  }
-
-  /* Home page | Service section */
-
-  #service .section-header h2 {
-    font-size: 24px;
-  }
-
-  .service-flex {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 24px;
-    padding: 0 20px 0 20px;
-    margin: 50px 10px 0 10px;
-  }
-
-  /* Home page | client section */
-
-  .client-card {
-    width: 80%;
-    padding: 20px;
-  }
-
-  .client-details img {
-    width: 100px;
-    height: 80px;
-  }
-
-  .client-details h4 {
-    font-size: 20px;
-  }
-
-  .client-details h5 {
-    font-size: 16px;
-  }
-
-  .client-card p {
-    font-size: 16px;
-  }
-
-  /* Home page | Instagram section */
-
-  #instagram .section-header {
-    margin-top: 40px;
-  }
-
-  #instagram .section-header p {
-    font-size: 16px;
-    padding: 6px 20px;
-    margin-bottom: 16px;
-    border-radius: 80px;
-  }
-
-  #instagram .section-header h2 {
-    font-size: 32px;
-    margin-bottom: 40px;
-  }
-
-  .instagram-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  /* Home page | Footer section */
-  #footer .section-container {
-    padding: 30px 25px;
-  }
 
   .footer-container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
   }
 
-  .footer-socials a {
-    font-size: 12px;
+  .footer-socials {
+    grid-template-columns: repeat(6, 1fr);
   }
 }
