@@ -1016,6 +1016,10 @@ footer #follow {
   .footer-socials a {
     font-size: 12px;
   }
+
+  .footer-bar {
+    margin: 40px auto;
+  }
 }
 
 /* Media Query */
@@ -1274,7 +1278,47 @@ footer #follow {
     grid-template-columns: 1fr;
   }
 
+  footer .header-logo {
+    margin-bottom: 0;
+  }
+
+  footer .footer-col {
+    margin: 0px 20px;
+  }
+
+  .footer-col h4 {
+    font-size: 18px;
+  }
+
+  .footer-links a,
+  .footer-socials a {
+    font-size: 12px;
+  }
+
+  footer #address,
+  footer #newsletter {
+    margin-top: 40px;
+  }
+
+  footer #inquiries,
+  footer #follow {
+    margin-top: 10px;
+  }
+
+  .footer-col form input {
+    font-size: 12px;
+    padding-inline: 15px;
+  }
+
+  .footer-col p {
+    font-size: 12px;
+  }
+
   .footer-socials {
     grid-template-columns: repeat(6, 1fr);
+  }
+
+  .footer-bar p {
+    font-size: 10px;
   }
 }
