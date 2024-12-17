@@ -756,6 +756,41 @@ footer #follow {
   cursor: pointer;
   color: var(--secondary-color);
 }
+/* About Page | Page Header section */
+
+#about-header .page-header {
+  background-color: var(--secondary-color);
+  color: var(--text-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-flow: column;
+  min-height: 180px;
+}
+
+#about-header .page-header h3 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+#about-header .page-header p {
+  font-size: 24px;
+  color: var(--text-light);
+}
+
+#about-header .page-header p a {
+  color: var(--text-light);
+  transition: all 250ms ease-in-out;
+}
+
+#about-header .page-header p a:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Media Query */
 
 @media (max-width: 1024px) {
   body {
