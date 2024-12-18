@@ -1373,4 +1373,20 @@ footer #follow {
   .footer-bar p {
     font-size: 10px;
   }
+
+  /* About page starts here */
+  /* About page / Page Header */
+
+  #about-header .page-header {
+    min-height: 120px;
+  }
+
+  #about-header .page-header h3 {
+    font-size: 26px;
+    padding-top: 5px;
+  }
+
+  #about-header .page-header p {
+    font-size: 16px;
+  }
 }
