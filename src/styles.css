@@ -1055,6 +1055,22 @@ footer #follow {
   .footer-bar {
     margin: 40px auto;
   }
+
+  /* About page starts here */
+  /* About page / Page Header */
+
+  #about-header .page-header {
+    min-height: 140px;
+  }
+
+  #about-header .page-header h3 {
+    font-size: 36px;
+    padding-top: 10px;
+  }
+
+  #about-header .page-header p {
+    font-size: 20px;
+  }
 }
 
 /* Media Query */
