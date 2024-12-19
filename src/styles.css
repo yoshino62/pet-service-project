@@ -790,6 +790,31 @@ footer #follow {
   text-decoration: underline;
 }
 
+/* About Page |  */
+#about-page-intro .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+#about-page-intro .about-page-image img {
+  width: 100%;
+  padding: 30px 10px;
+}
+
+#about-page-intro .about-page-main-content h3 {
+  color: var(--text-dark);
+  font-size: 48px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+#about-page-intro .about-page-main-content p {
+  color: var(--text-dark);
+  font-size: 20px;
+  line-height: 1.5;
+}
+
 /* Media Query */
 
 @media (max-width: 1024px) {
