@@ -804,14 +804,14 @@ footer #follow {
 
 #about-page-intro .about-page-main-content h3 {
   color: var(--text-dark);
-  font-size: 48px;
+  font-size: 38px;
   line-height: 1.5;
-  margin-bottom: 10px;
+  margin: 30px;
 }
 
 #about-page-intro .about-page-main-content p {
   color: var(--text-dark);
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
