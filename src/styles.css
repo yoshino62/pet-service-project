@@ -1431,4 +1431,14 @@ footer #follow {
   #about-header .page-header p {
     font-size: 16px;
   }
+
+  /* About Page |  About section*/
+  #about-page-intro .about-page-main-content h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  #about-page-intro .about-page-main-content h3 {
+    margin-top: 16px;
+  }
 }
