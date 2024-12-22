@@ -756,6 +756,7 @@ footer #follow {
   cursor: pointer;
   color: var(--secondary-color);
 }
+
 /* About Page | Page Header section */
 
 #about-header .page-header {
@@ -790,7 +791,7 @@ footer #follow {
   text-decoration: underline;
 }
 
-/* About Page |  */
+/* About Page |  About section*/
 #about-page-intro .row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1095,6 +1096,22 @@ footer #follow {
 
   #about-header .page-header p {
     font-size: 20px;
+  }
+
+  /* About Page |  About section*/
+  #about-page-intro .row {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  #about-page-intro .about-page-main-content h3 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #about-page-intro .about-page-main-content p {
+    line-height: 1.5;
+    padding: 5px 20px;
   }
 }
 
