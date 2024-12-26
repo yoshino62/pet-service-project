@@ -770,7 +770,7 @@ footer #follow {
   min-height: 180px;
 }
 
-#about-header .page-header h3 {
+#about-header .page-header h1 {
   font-size: 48px;
   font-weight: 500;
 }
@@ -803,7 +803,7 @@ footer #follow {
   padding: 30px 10px;
 }
 
-#about-page-intro .about-page-main-content h3 {
+#about-page-intro .about-page-main-content h2 {
   color: var(--text-dark);
   font-size: 38px;
   line-height: 1.5;
@@ -814,6 +814,43 @@ footer #follow {
   color: var(--text-dark);
   font-size: 18px;
   line-height: 1.5;
+}
+
+/* About Page |  service intro section*/
+#service-intro .service-intro-box-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: flex-start;
+  gap: 24px;
+}
+
+#service-intro .service-intro-box {
+  border: 1px solid var(--text-light);
+  border-radius: 4px;
+  padding: 32px;
+}
+
+#service-intro .service-intro-box img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+#service-intro .service-intro-box h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-dark);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#service-intro .service-intro-box ul {
+  list-style-type: none;
+  padding-left: 80px;
+}
+
+#service-intro .service-intro-box li {
+  margin: 15px 0;
 }
 
 /* Media Query */
