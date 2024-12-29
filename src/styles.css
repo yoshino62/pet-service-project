@@ -865,11 +865,18 @@ footer #follow {
   background-color: var(--white);
   color: var(--text-dark);
   font-size: 14px;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   border: 1px solid var(--secondary-accent-color);
   border-radius: 80px;
   padding: 10px 20px;
   transition: all 200ms ease-in-out;
+}
+
+#service-intro .service-intro-btn button:hover {
+  background-color: var(--secondary-accent-color);
+  color: var(--text-dark);
+  cursor: pointer;
 }
 
 #service-intro .service-intro-btn a {
