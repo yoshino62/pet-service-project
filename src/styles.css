@@ -861,6 +861,21 @@ footer #follow {
   margin: 15px 0;
 }
 
+#service-intro .service-intro-btn button {
+  background-color: var(--white);
+  color: var(--text-dark);
+  font-size: 14px;
+  display: inline-block;
+  border: 1px solid var(--secondary-accent-color);
+  border-radius: 80px;
+  padding: 10px 20px;
+  transition: all 200ms ease-in-out;
+}
+
+#service-intro .service-intro-btn a {
+  color: var(--text-dark);
+}
+
 /* Media Query */
 
 @media (max-width: 1024px) {
