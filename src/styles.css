@@ -816,7 +816,52 @@ footer #follow {
   line-height: 1.5;
 }
 
-/* About Page |  service intro section*/
+/* Service page | service header */
+
+#service-header .page-header {
+  background-color: var(--secondary-accent-color);
+  color: var(--text-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-flow: column;
+  min-height: 180px;
+}
+
+#service-header .page-header h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+#service-header .page-header p {
+  font-size: 24px;
+  color: var(--text-light);
+}
+
+#service-header .page-header p a {
+  color: var(--text-light);
+  transition: all 250ms ease-in-out;
+}
+
+#service-header .page-header p a:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Service Page |  service intro section*/
+#service-intro {
+  margin-top: 40px;
+}
+
+#service-intro .service-intro-para p {
+  color: var(--text-dark);
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
 #service-intro .service-intro-box-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -881,40 +926,6 @@ footer #follow {
 
 #service-intro .service-intro-btn a {
   color: var(--text-dark);
-}
-
-/* Service page | service header */
-
-#service-header .page-header {
-  background-color: var(--secondary-accent-color);
-  color: var(--text-dark);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  flex-flow: column;
-  min-height: 180px;
-}
-
-#service-header .page-header h1 {
-  font-size: 48px;
-  font-weight: 500;
-}
-
-#service-header .page-header p {
-  font-size: 24px;
-  color: var(--text-light);
-}
-
-#service-header .page-header p a {
-  color: var(--text-light);
-  transition: all 250ms ease-in-out;
-}
-
-#service-header .page-header p a:hover {
-  color: var(--primary-color);
-  cursor: pointer;
-  text-decoration: underline;
 }
 
 /* Media Query */
