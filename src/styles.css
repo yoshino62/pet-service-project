@@ -891,19 +891,25 @@ footer #follow {
 }
 
 #service-intro .service-intro-box h4 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
+  line-height: 1.5;
   color: var(--text-dark);
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
-#service-intro .service-intro-box ul {
-  list-style-type: none;
+#service-intro .service-intro-box h5 {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
 }
 
-#service-intro .service-intro-box li {
-  margin: 15px 0;
+#service-intro .service-intro-box p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 #service-intro .service-intro-btn button {
