@@ -93,3 +93,32 @@ ScrollReveal().reveal(".instagram-grid img", {
   duration: 1000,
   interval: 500,
 });
+
+ScrollReveal().reveal("#service-intro .service-intro-box:nth-child(1)", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal("#service-intro .service-intro-box:nth-child(2)", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal("#service-intro .service-intro-box:nth-child(3)", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+ScrollReveal().reveal("#service-intro .service-intro-box:nth-child(4)", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
+
+ScrollReveal().reveal("#service-intro .service-intro-box:nth-child(5)", {
+  ...scrollRevealOption,
+  delay: 2000,
+});
+
+ScrollReveal().reveal("#service-intro .service-intro-box:nth-child(6)", {
+  ...scrollRevealOption,
+  delay: 2500,
+});
