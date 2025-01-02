@@ -115,6 +115,15 @@ ScrollReveal().reveal("#about-page-intro .about-page-main-content", {
   origin: "right",
 });
 
+ScrollReveal().reveal("#service-header .page-header h1 ", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal("#service-header .page-header p", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
 ScrollReveal().reveal("#service-intro .service-intro-box:nth-child(1)", {
   ...scrollRevealOption,
 });
