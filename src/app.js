@@ -94,6 +94,27 @@ ScrollReveal().reveal(".instagram-grid img", {
   interval: 500,
 });
 
+ScrollReveal().reveal("#about-header .page-header h1", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal("#about-header .page-header p", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal("#about-page-intro .about-page-image img", {
+  ...scrollRevealOption,
+  delay: 1500,
+  origin: "left",
+});
+
+ScrollReveal().reveal("#about-page-intro .about-page-main-content", {
+  ...scrollRevealOption,
+  delay: 1500,
+  origin: "right",
+});
+
 ScrollReveal().reveal("#service-intro .service-intro-box:nth-child(1)", {
   ...scrollRevealOption,
 });
