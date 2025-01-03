@@ -152,3 +152,12 @@ ScrollReveal().reveal("#service-intro .service-intro-box:nth-child(6)", {
   ...scrollRevealOption,
   delay: 2500,
 });
+
+ScrollReveal().reveal("#store-header .page-header h1 ", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal("#store-header .page-header p", {
+  ...scrollRevealOption,
+  delay: 500,
+});
