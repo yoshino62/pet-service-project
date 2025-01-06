@@ -1697,3 +1697,21 @@ footer #follow {
   border-radius: 2px;
   padding: 0.3rem;
 }
+
+#store-page .more-btn button {
+  background-color: var(--accent-color);
+  color: var(--text-dark);
+  font-size: 20px;
+  display: block;
+  border: none;
+  border-radius: 80px;
+  padding: 10px 20px;
+  margin: 40px auto;
+  transition: all 200ms ease-in-out;
+}
+
+#store-page .more-btn button:hover {
+  background-color: var(--white);
+  border: 1px solid var(--accent-color);
+  color: var(--text-dark);
+}
