@@ -1714,4 +1714,5 @@ footer #follow {
   background-color: var(--white);
   border: 1px solid var(--accent-color);
   color: var(--text-dark);
+  cursor: pointer;
 }
