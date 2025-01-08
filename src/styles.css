@@ -1723,4 +1723,26 @@ footer #follow {
   #about-page-intro .about-page-main-content h3 {
     margin-top: 16px;
   }
+
+  /* Store page starts here */
+  /* Store page / Store header section */
+  #store-header .page-header h1 {
+    font-size: 32px;
+  }
+
+  #store-header .page-header p {
+    font-size: 18px;
+  }
+
+  /* Store page / Produce details section */
+  #store-page h2 {
+    font-size: 1.4rem;
+
+    margin: 40px 0;
+  }
+
+  #store-page .product-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
