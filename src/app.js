@@ -161,3 +161,12 @@ ScrollReveal().reveal("#store-header .page-header p", {
   ...scrollRevealOption,
   delay: 500,
 });
+
+ScrollReveal().reveal("#contact-header .page-header h1 ", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal("#contact-header .page-header p", {
+  ...scrollRevealOption,
+  delay: 500,
+});
