@@ -1128,7 +1128,7 @@ footer #follow {
 }
 
 #contact-header .page-header p a:hover {
-  color: var(--primary-color);
+  color: var(--accent-color);
   cursor: pointer;
   text-decoration: underline;
 }
