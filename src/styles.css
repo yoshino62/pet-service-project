@@ -1395,6 +1395,13 @@ footer #follow {
     line-height: 1.5;
     padding: 5px 20px;
   }
+
+  /* Store page starts here */
+  /* Store page / Product details section */
+  #store-page .product-container {
+    grid-template-columns: repeat(auto-fit, 20rem);
+    gap: 2rem;
+  }
 }
 
 /* Media Query */
@@ -1734,7 +1741,7 @@ footer #follow {
     font-size: 18px;
   }
 
-  /* Store page / Produce details section */
+  /* Store page / Product details section */
   #store-page h2 {
     font-size: 1.4rem;
 
