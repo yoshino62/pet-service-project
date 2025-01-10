@@ -1133,6 +1133,35 @@ footer #follow {
   text-decoration: underline;
 }
 
+/*  Contact page / Contact form */
+#contact-page {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#contact-page .contact-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+}
+
+#contact-page .contact-row .contact-page-image {
+  flex: 1 1 40rem;
+}
+
+#contact-page .contact-row .contact-page-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+#contact-page .contact-row form {
+  flex: 1 1 40rem;
+  padding: 2rem;
+  text-align: center;
+}
+
 /* Media Query */
 
 @media (max-width: 1024px) {
