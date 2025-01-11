@@ -1186,7 +1186,7 @@ footer #follow {
 }
 
 #contact-page .contact-row form .contact-btn {
-  background-color: var(--accent-color);
+  background-color: var(--secondary-accent-color);
   color: var(--text-dark);
   font-size: 1.2rem;
   line-height: 1.5;
