@@ -57,25 +57,26 @@
         </section>
         <section class="section-container" id="contact-page">
             <div class="contact-row">
-                <div class="contact-page-image">
-                    <img src="images/contact.page.png" alt="a sleeping puppy" />
-                </div>
+
                 <form action="" method="post">
-                    <h3>How may we help you?</h3>
+                    <h3>How May We Help You?</h3>
                     <p>
                         We're happy to answer questions.
                         <br />
                         Please fill out the form below if you need assistance.
                     </p>
-                    <input type="text" name="name" maxlength="50" placeholder="Enter Your Name" required class="box" />
-                    <input type="number" name="number" min="0" max="9999999999" placeholder="Enter Your Number" required
-                        onkeypress="if(this.value.length == 10) return false;" class="box" />
+                    <input type="text" name="name" maxlength="50" placeholder="Enter Your Name" required
+                        class="input-box" />
                     <input type="email" name="email" maxlength="50" placeholder="Enter Your Email" required
-                        class="box" />
+                        class="input-box" />
                     <textarea name="msg" cols="30" rows="10" maxlength="500" placeholder="Enter Your Message" required
-                        class="box"></textarea>
+                        class="input-box"></textarea>
                     <input type="submit" value="Send Message" name="send" class="contact-btn">
                 </form>
+
+                <div class="contact-page-image">
+                    <img src="images/contact.page.png" alt="a sleeping puppy" />
+                </div>
             </div>
         </section>
 
