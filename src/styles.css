@@ -1110,6 +1110,7 @@ footer #follow {
   gap: 16px;
   flex-flow: column;
   min-height: 180px;
+  margin-bottom: 4rem;
 }
 
 #contact-header .page-header h1 {
@@ -1152,6 +1153,7 @@ footer #follow {
 }
 
 #contact-page .contact-row .contact-page-image img {
+  border-radius: 8px;
   max-width: 100%;
   height: auto;
 }
@@ -1160,6 +1162,55 @@ footer #follow {
   flex: 1 1 40rem;
   padding: 2rem;
   text-align: center;
+}
+
+#contact-page .contact-row form h3 {
+  color: var(--text-dark);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+#contact-page .contact-row form p {
+  color: var(--text-dark);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+#contact-page .contact-row form .input-box {
+  color: var(--text-dark);
+  font-size: 1rem;
+  margin: 1rem 0;
+  padding: 0.5rem 0.8rem;
+  width: 100%;
+}
+
+#contact-page .contact-row form .contact-btn {
+  background-color: var(--accent-color);
+  color: var(--text-dark);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  display: block;
+  align-items: center;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  padding-block: 0.5rem;
+  padding-inline: 1.7rem 1.2rem;
+  margin: 1rem auto;
+  transition: all 250ms ease-in-out;
+}
+
+#contact-page .contact-row form .contact-btn:hover {
+  background-color: var(--white);
+  border: 1px solid var(--accent-color);
+  color: var(--text-dark);
+  cursor: pointer;
+}
+
+#contact-page .contact-row form textarea {
+  height: 15rem;
+  resize: none;
 }
 
 /* Media Query */
