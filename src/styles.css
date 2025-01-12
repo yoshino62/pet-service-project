@@ -1884,4 +1884,24 @@ footer #follow {
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  /* Contact page starts here */
+  /*  Contact page / page header */
+  #contact-header .page-header h1 {
+    font-size: 32px;
+  }
+
+  #contact-header .page-header p {
+    font-size: 18px;
+  }
+
+  /*  Contact page / contact form */
+  #contact-page .contact-row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #contact-page .contact-row .contact-page-image img {
+    padding: 0 2rem 0;
+  }
 }
