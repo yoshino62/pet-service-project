@@ -1517,6 +1517,23 @@ footer #follow {
     grid-template-columns: repeat(auto-fit, 20rem);
     gap: 2rem;
   }
+
+  /* Contact page starts here */
+  /*  Contact page / Contact form */
+
+  #contact-page .contact-row form h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  #contact-page .contact-row form p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #contact-page .contact-row form .contact-btn {
+    font-size: 0.8rem;
+  }
 }
 
 /* Media Query */
