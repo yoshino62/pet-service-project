@@ -115,7 +115,7 @@ ScrollReveal().reveal("#about-page-intro .about-page-main-content", {
   origin: "right",
 });
 
-ScrollReveal().reveal("#service-header .page-header h1 ", {
+ScrollReveal().reveal("#service-header .page-header h1", {
   ...scrollRevealOption,
 });
 
@@ -153,7 +153,7 @@ ScrollReveal().reveal("#service-intro .service-intro-box:nth-child(6)", {
   delay: 2500,
 });
 
-ScrollReveal().reveal("#store-header .page-header h1 ", {
+ScrollReveal().reveal("#store-header .page-header h1", {
   ...scrollRevealOption,
 });
 
@@ -162,11 +162,34 @@ ScrollReveal().reveal("#store-header .page-header p", {
   delay: 500,
 });
 
-ScrollReveal().reveal("#contact-header .page-header h1 ", {
+ScrollReveal().reveal("#contact-header .page-header h1", {
   ...scrollRevealOption,
 });
 
 ScrollReveal().reveal("#contact-header .page-header p", {
   ...scrollRevealOption,
   delay: 500,
+});
+
+ScrollReveal().reveal("#contact-page .contact-row h3", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+ScrollReveal().reveal("#contact-page .contact-row p", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
+
+ScrollReveal().reveal(
+  "#contact-page .contact-row input, #contact-page .contact-row textarea",
+  {
+    ...scrollRevealOption,
+    delay: 2000,
+  }
+);
+
+ScrollReveal().reveal("#contact-page .contact-page-image img", {
+  ...scrollRevealOption,
+  delay: 2500,
 });
