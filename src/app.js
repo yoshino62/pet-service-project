@@ -193,3 +193,12 @@ ScrollReveal().reveal("#contact-page .contact-page-image img", {
   ...scrollRevealOption,
   delay: 2500,
 });
+
+ScrollReveal().reveal("#cart-header .page-header h1", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal("#cart-header .page-header p", {
+  ...scrollRevealOption,
+  delay: 500,
+});
