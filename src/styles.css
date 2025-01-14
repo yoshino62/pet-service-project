@@ -1080,6 +1080,7 @@ footer #follow {
 #cart-page .product-box .flex .product-price {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   gap: 2rem;
   color: var(--text-dark);
   font-size: 1.2rem;
