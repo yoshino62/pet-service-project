@@ -49,7 +49,7 @@
         <section id="cart-header">
 
             <div class="page-header">
-                <h1>My Cart</h1>
+                <h1>Shopping Cart</h1>
                 <p>
                     <a href="index.html" class="active">Home</a><span> / Shopping Cart</span>
                 </p>
@@ -57,7 +57,38 @@
 
         </section>
 
+        <section class="cart-products" id="cart-page">
 
+            <h2 class="cart-title">My Cart</h2>
+
+            <div class="cart-total">
+                <p>Cart Total <span>$40</span></p>
+                <a href="checkout.html" class="cart-btn">Proceed to Checkout</a>
+            </div>
+
+            <div class="product-container">
+
+                <form action="" method="post" class="product-box">
+                    <button type="submit" class="ri-eye-fill" name="quick-view"></button>
+                    <button type="submit" class="ri-delete-bin-line" name="delete"
+                        onclick="return confirm('Delete this item?');"></button>
+
+                    <img src="images/store.product3.png" alt="dog in the jacket" />
+                    <div class="product-name">Dog Jacket | Sliver</div>
+                    <div class="flex">
+                        <div class="product-price">
+                            <span>$40</span>
+                            <input type="number" name="qty" class="product-qty" min="1" max="99" value="1"
+                                onkeypress="if(this.value.length == 2) return false;" />
+                        </div>
+                        <button type="submit" class="ri-pencil-line"></button>
+                    </div>
+                    <div class="sub-total">Sub Total : <span>$40</span></div>
+                </form>
+
+            </div>
+
+        </section>
 
 
         <footer class="section-container footer-container" id="footer">
