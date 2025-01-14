@@ -63,7 +63,9 @@
 
             <div class="cart-total">
                 <p>Cart Total <span>$40</span></p>
-                <a href="checkout.html" class="cart-btn">Proceed to Checkout</a>
+                <button>
+                    <a href="checkout.html" class="cart-btn">Proceed to Checkout</a>
+                </button>
             </div>
 
             <div class="product-container">
@@ -80,8 +82,8 @@
                             <span>$40</span>
                             <input type="number" name="qty" class="product-qty" min="1" max="99" value="1"
                                 onkeypress="if(this.value.length == 2) return false;" />
+                            <button type="submit" class="ri-pencil-line"></button>
                         </div>
-                        <button type="submit" class="ri-pencil-line"></button>
                     </div>
                     <div class="sub-total">Sub Total : <span>$40</span></div>
                 </form>
