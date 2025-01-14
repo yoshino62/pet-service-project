@@ -1275,6 +1275,17 @@ footer #follow {
   margin: 40px 0;
 }
 
+#cart-page .cart-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem 6rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
 #cart-page .cart-total p {
   color: var(--text-dark);
   font-size: 2rem;
@@ -1283,17 +1294,47 @@ footer #follow {
   margin: 40px 0;
 }
 
+#cart-page .cart-total p span {
+  color: #f38375;
+}
+
 #cart-page .cart-total button {
   background-color: var(--accent-color);
   color: var(--text-dark);
   font-size: 20px;
   text-align: center;
-  display: block;
   border: none;
   border-radius: 80px;
   padding: 10px 20px;
-  margin: 40px auto;
   transition: all 200ms ease-in-out;
+}
+
+#cart-page .product-container .product-box .sub-total {
+  color: var(--text-dark);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+#cart-page .product-container .product-box .sub-total span {
+  color: #f38375;
+}
+
+#cart-page .product-box .flex .ri-pencil-line {
+  background-color: var(--secondary-accent-color);
+  color: var(--text-dark);
+  font-size: 1rem;
+  border: none;
+  border-radius: 2px;
+  height: 1.9rem;
+  width: 1.9rem;
+}
+
+#cart-page .product-box .flex .ri-pencil-line:hover {
+  background-color: var(--white);
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  cursor: pointer;
 }
 
 #cart-page .more-btn button {
