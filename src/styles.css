@@ -1296,6 +1296,25 @@ footer #follow {
   transition: all 200ms ease-in-out;
 }
 
+#cart-page .more-btn button {
+  background-color: #f38375;
+  color: var(--white);
+  font-size: 20px;
+  display: block;
+  border: none;
+  border-radius: 80px;
+  padding: 10px 20px;
+  margin: 40px auto;
+  transition: all 200ms ease-in-out;
+}
+
+#cart-page .more-btn button:hover {
+  background-color: var(--white);
+  border: 1px solid #f38375;
+  color: #f38375;
+  cursor: pointer;
+}
+
 /* Media Query */
 
 @media (max-width: 1024px) {
