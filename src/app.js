@@ -202,3 +202,18 @@ ScrollReveal().reveal("#cart-header .page-header p", {
   ...scrollRevealOption,
   delay: 500,
 });
+
+ScrollReveal().reveal("#cart-page h2", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+ScrollReveal().reveal("#cart-page .cart-total", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
+
+ScrollReveal().reveal("#cart-page .product-container", {
+  ...scrollRevealOption,
+  delay: 2000,
+});
