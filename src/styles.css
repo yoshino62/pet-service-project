@@ -2048,4 +2048,34 @@ footer #follow {
   #contact-page .contact-row .contact-page-image img {
     padding: 0 2rem 0;
   }
+
+  /* Cart page starts here */
+  /*  Cart page / page header */
+
+  #cart-header .page-header h1 {
+    font-size: 32px;
+  }
+
+  #cart-header .page-header p {
+    font-size: 18px;
+  }
+
+  /*  Cart page / product cart section */
+
+  #cart-page h2 {
+    color: var(--text-dark);
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0.5rem;
+  }
+
+  #cart-page .cart-total {
+    justify-content: space-around;
+    padding: 1rem 3rem;
+  }
+
+  #cart-page .cart-total p {
+    margin: 20px 0;
+  }
 }
