@@ -2078,4 +2078,9 @@ footer #follow {
   #cart-page .cart-total p {
     margin: 20px 0;
   }
+  #cart-page .product-container {
+    grid-template-columns: 1fr;
+    align-items: center;
+    padding: 0 1rem;
+  }
 }
