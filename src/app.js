@@ -217,3 +217,12 @@ ScrollReveal().reveal("#cart-page .product-container", {
   ...scrollRevealOption,
   delay: 2000,
 });
+
+ScrollReveal().reveal("#checkout-header .page-header h1", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal("#checkout-header .page-header p", {
+  ...scrollRevealOption,
+  delay: 500,
+});
