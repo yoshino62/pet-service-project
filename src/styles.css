@@ -15,7 +15,8 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+button {
   font-family: "Mulish", sans-serif;
 }
 
@@ -1461,6 +1462,23 @@ footer #follow {
   border-radius: 4px;
   margin-top: 3rem;
   padding: 0.8rem;
+}
+
+#checkout-page.checkout form button.cart-btn {
+  background-color: var(--accent-color);
+  color: var(--text-dark);
+  font-size: 0.9rem;
+  display: block;
+  border: none;
+  border-radius: 80px;
+  padding: 10px 20px;
+  margin: 40px auto;
+  transition: all 200ms ease-in-out;
+}
+
+#checkout-page.checkout form button.cart-btn:hover {
+  background-color: var(--secondary-accent-color);
+  color: var(--text-dark);
 }
 
 /* Media Query */
