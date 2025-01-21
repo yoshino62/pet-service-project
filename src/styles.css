@@ -1392,6 +1392,51 @@ footer #follow {
   text-decoration: underline;
 }
 
+/*  Checkout page / checkout form */
+
+#checkout-page.checkout form {
+  border: 1px solid var(--text-light);
+  border-radius: 4px;
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+#checkout-page.checkout form h3 {
+  color: var(--text-dark);
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+#checkout-page.checkout form .cart-items {
+  background-color: #fff4d2;
+  border-radius: 4px;
+  padding: 2rem;
+}
+
+#checkout-page.checkout form .cart-items p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1rem 0;
+  color: var(--text-dark);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 0 1rem;
+}
+
+#checkout-page.checkout form .cart-items p .price {
+  font-weight: 700;
+}
+
+#checkout-page.checkout form .cart-items p.grand-total {
+  background-color: var(--white);
+  padding: 1.2rem 1rem;
+  border-radius: 4px;
+}
+
 /* Media Query */
 
 @media (max-width: 1024px) {
