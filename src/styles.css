@@ -1409,9 +1409,11 @@ footer #follow {
   margin-bottom: 0.5rem;
 }
 
-#checkout-page.checkout form .cart-items {
+#checkout-page.checkout form .cart-items,
+#checkout-page.checkout form .customer-profile {
   background-color: #fff4d2;
   border-radius: 4px;
+  margin-bottom: 2rem;
   padding: 2rem;
 }
 
@@ -1420,10 +1422,10 @@ footer #follow {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  margin: 1rem 0;
   color: var(--text-dark);
   font-size: 1.2rem;
   line-height: 1.5;
+  margin: 1rem 0;
   padding: 0 1rem;
 }
 
@@ -1435,6 +1437,30 @@ footer #follow {
   background-color: var(--white);
   padding: 1.2rem 1rem;
   border-radius: 4px;
+}
+
+#checkout-page.checkout form .customer-profile p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+
+#checkout-page.checkout form .customer-profile p i {
+  color: var(--primary-color);
+  margin-right: 0.7rem;
+}
+
+#checkout-page.checkout form .customer-profile p span {
+  color: var(--text-dark);
+}
+
+#checkout-page.checkout form .customer-profile .payment-method-box {
+  width: 100%;
+  border: 1px solid var(--text-dark);
+  border-radius: 4px;
+  margin-top: 3rem;
+  padding: 0.5rem;
 }
 
 /* Media Query */
