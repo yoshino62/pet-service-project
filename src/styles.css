@@ -1477,8 +1477,9 @@ footer #follow {
 }
 
 #checkout-page.checkout form button.cart-btn:hover {
-  background-color: var(--secondary-accent-color);
-  color: var(--text-dark);
+  background-color: var(--white);
+  border: 1px solid var(--accent-color);
+  color: var(--white);
 }
 
 /* Media Query */
