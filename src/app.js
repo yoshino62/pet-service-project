@@ -226,3 +226,13 @@ ScrollReveal().reveal("#checkout-header .page-header p", {
   ...scrollRevealOption,
   delay: 500,
 });
+
+ScrollReveal().reveal("#checkout-page.checkout h2", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+ScrollReveal().reveal("#checkout-page.checkout form", {
+  ...scrollRevealOption,
+  delay: 2000,
+});
