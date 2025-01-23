@@ -2216,4 +2216,20 @@ footer #follow {
     align-items: center;
     padding: 0 1rem;
   }
+
+  /* Checkout page starts here */
+  /*  Checkout page / page header */
+  #checkout-header .page-header h1 {
+    font-size: 32px;
+  }
+
+  #checkout-header .page-header p {
+    font-size: 18px;
+  }
+
+  /*  Checkout page / checkout form */
+  #checkout-page.checkout h2 {
+    font-size: 1.4rem;
+    margin: 40px 0;
+  }
 }
