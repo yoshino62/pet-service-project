@@ -2232,4 +2232,24 @@ footer #follow {
     font-size: 1.4rem;
     margin: 40px 0;
   }
+
+  #checkout-page.checkout form h3 {
+    font-size: 1.3rem;
+  }
+
+  #checkout-page.checkout form .cart-items p {
+    font-size: 1rem;
+  }
+
+  #checkout-page.checkout form .cart-items p.grand-total {
+    padding: 0.8rem 1rem;
+  }
+
+  #checkout-page.checkout form .customer-profile p {
+    font-size: 1rem;
+  }
+
+  #checkout-page.checkout form .customer-profile .payment-method-box {
+    margin-top: 1rem;
+  }
 }
