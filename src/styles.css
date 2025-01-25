@@ -1510,6 +1510,41 @@ footer #follow {
   border: 1px solid #f8a9a0;
 }
 
+/* Order page starts here */
+/*  Order page / Page header */
+#order-header .page-header {
+  background-color: #f8a9a0;
+  color: var(--text-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-flow: column;
+  min-height: 180px;
+  margin-bottom: 4rem;
+}
+
+#order-header .page-header h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+#order-header .page-header p {
+  font-size: 24px;
+  color: var(--text-light);
+}
+
+#order-header .page-header p a {
+  color: var(--text-light);
+  transition: all 250ms ease-in-out;
+}
+
+#order-header .page-header p a:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 /* Media Query */
 
 @media (max-width: 1024px) {
