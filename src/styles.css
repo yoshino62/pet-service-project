@@ -1547,6 +1547,13 @@ footer #follow {
 
 /*  Order page / Order details section */
 
+#order-page.orders h2 {
+  color: var(--text-dark);
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
 #order-page .box-container {
   display: flex;
   flex-wrap: wrap;
