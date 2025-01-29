@@ -1578,6 +1578,14 @@ footer #follow {
   color: var(--text-dark);
 }
 
+#order-page .box-container ul {
+  list-style-type: none;
+}
+
+#order-page .box-container li {
+  padding: 0.5rem 0 0 4rem;
+}
+
 /* Media Query */
 
 @media (max-width: 1024px) {
