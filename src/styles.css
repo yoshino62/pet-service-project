@@ -2340,4 +2340,23 @@ footer #follow {
   #checkout-page.checkout form .customer-profile .payment-method-box {
     margin-top: 1rem;
   }
+
+  /* Order page starts here */
+  /*  Order page / Page header */
+
+  #order-header .page-header h1 {
+    font-size: 32px;
+  }
+
+  #order-page.orders h2 {
+    font-size: 1.4rem;
+    margin: 40px 0;
+  }
+
+  #order-page .box-container .box {
+    flex: 1 1 40rem;
+    border: 1px solid var(--text-light);
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+  }
 }
