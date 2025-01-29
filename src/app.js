@@ -245,3 +245,13 @@ ScrollReveal().reveal("#order-header .page-header p", {
   ...scrollRevealOption,
   delay: 500,
 });
+
+ScrollReveal().reveal("#order-page.orders h2", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+ScrollReveal().reveal("#order-page .box-container", {
+  ...scrollRevealOption,
+  delay: 2000,
+});
