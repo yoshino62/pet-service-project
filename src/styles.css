@@ -113,6 +113,65 @@ a {
   left: 16px;
 }
 
+#header .login-profile {
+  background-color: var(--white);
+  border: 1px solid var(--text-light);
+  text-align: center;
+  padding: 1.5rem;
+  position: absolute;
+  top: 100%;
+  right: 2rem;
+  width: 30rem;
+}
+
+#header .login-profile .profile-btn,
+#header .login-profile .delete-btn {
+  font-size: 1rem;
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem 2.5rem;
+  transition: all 250ms ease-in-out;
+}
+
+#header .login-profile .profile-btn {
+  background-color: var(--secondary-accent-color);
+  color: var(--text-dark);
+}
+
+#header .login-profile .delete-btn {
+  background-color: #f8a9a0;
+  color: var(--text-dark);
+}
+
+#header .login-profile .profile-btn:hover,
+#header .login-profile .delete-btn:hover {
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+
+#header .login-profile .login-name {
+  color: var(--text-dark);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#header .login-profile .profile-account {
+  color: var(--text-dark);
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin-top: 1rem;
+}
+
+#header .login-profile .profile-account a {
+  color: var(--text-dark);
+}
+
+#header .login-profile .profile-account a:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 #mobile {
   display: none;
   align-items: center;
