@@ -1657,6 +1657,41 @@ footer #follow {
   padding: 0.5rem 0 0 4rem;
 }
 
+/* Login page starts here */
+/*  Login page / Page header */
+#login-header .page-header {
+  background-color: var(--secondary-accent-color);
+  color: var(--text-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-flow: column;
+  min-height: 180px;
+  margin-bottom: 4rem;
+}
+
+#login-header .page-header h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+#login-header .page-header p {
+  font-size: 24px;
+  color: var(--text-light);
+}
+
+#login-header .page-header p a {
+  color: var(--text-light);
+  transition: all 250ms ease-in-out;
+}
+
+#login-header .page-header p a:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 /* Media Query */
 
 @media (max-width: 1024px) {
