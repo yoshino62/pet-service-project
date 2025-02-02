@@ -255,3 +255,12 @@ ScrollReveal().reveal("#order-page .box-container", {
   ...scrollRevealOption,
   delay: 2000,
 });
+
+ScrollReveal().reveal("#login-header .page-header h1", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal("#login-header .page-header p", {
+  ...scrollRevealOption,
+  delay: 500,
+});
