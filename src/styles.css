@@ -1723,6 +1723,22 @@ footer #follow {
   margin-top: 2rem;
 }
 
+#login-form-container form .login-btn {
+  background-color: #f8a9a0;
+  color: var(--text-dark);
+  border: none;
+  border-radius: 80px;
+  font-size: 1.2rem;
+  margin: 1.8rem 0;
+  padding: 1rem 3rem;
+}
+
+#login-form-container form .login-btn:hover {
+  cursor: pointer;
+  border: 1px solid #f8a9a0;
+  background-color: var(--white);
+}
+
 #login-form-container form p a {
   color: var(--primary-color);
 }
