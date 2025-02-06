@@ -264,3 +264,8 @@ ScrollReveal().reveal("#login-header .page-header p", {
   ...scrollRevealOption,
   delay: 500,
 });
+
+ScrollReveal().reveal("#login-form-container form", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
