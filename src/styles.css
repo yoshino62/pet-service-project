@@ -1752,6 +1752,41 @@ footer #follow {
   letter-spacing: 1px;
 }
 
+/* Register page starts here */
+/*  Register page / Page header */
+#register-header .page-header {
+  background-color: var(--secondary-color);
+  color: var(--text-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-flow: column;
+  min-height: 180px;
+  margin-bottom: 4rem;
+}
+
+#register-header .page-header h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+#register-header .page-header p {
+  font-size: 24px;
+  color: var(--text-light);
+}
+
+#register-header .page-header p a {
+  color: var(--text-light);
+  transition: all 250ms ease-in-out;
+}
+
+#register-header .page-header p a:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 /* Media Query */
 
 @media (max-width: 1024px) {
