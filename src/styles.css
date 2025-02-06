@@ -1712,6 +1712,7 @@ footer #follow {
   border: 1px solid var(--text-light);
   border-radius: 4px;
   font-size: 1rem;
+  line-height: 1.5;
   width: 100%;
   margin: 1rem 0;
   padding: 1rem;
@@ -1720,6 +1721,7 @@ footer #follow {
 #login-form-container form p {
   color: var(--text-dark);
   font-size: 1rem;
+  line-height: 1.5;
   margin-top: 2rem;
 }
 
@@ -1729,6 +1731,7 @@ footer #follow {
   border: none;
   border-radius: 80px;
   font-size: 1.2rem;
+  line-height: 1.5;
   margin: 1.8rem 0;
   padding: 1rem 3rem;
 }
@@ -2529,5 +2532,37 @@ footer #follow {
     border: 1px solid var(--text-light);
     margin: 1rem 2rem;
     padding: 1rem 2rem;
+  }
+
+  /* Login page starts here */
+  /*  Login page / Page header */
+  #login-header .page-header h1 {
+    font-size: 32px;
+  }
+
+  #login-header .page-header p {
+    font-size: 18px;
+  }
+
+  #login-form-container form {
+    max-width: 20rem;
+    padding: 2rem;
+  }
+
+  #login-form-container form h3 {
+    font-size: 1.2rem;
+  }
+
+  #login-form-container form .box {
+    font-size: 1rem;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.6rem;
+  }
+
+  #login-form-container form .login-btn {
+    font-size: 0.8rem;
+    margin: 1.2rem 0;
+    padding: 1rem 3rem;
   }
 }
