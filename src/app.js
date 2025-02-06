@@ -269,3 +269,12 @@ ScrollReveal().reveal("#login-form-container form", {
   ...scrollRevealOption,
   delay: 1000,
 });
+
+ScrollReveal().reveal("#register-header .page-header h1", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal("#register-header .page-header p", {
+  ...scrollRevealOption,
+  delay: 500,
+});
