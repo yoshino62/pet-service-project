@@ -73,14 +73,18 @@
         <section id="login-form-container">
 
             <form action="" method="post">
-                <h3>Login Now</h3>
+                <h3>Create My Account</h3>
+                <input type="text" name="name" placeholder="Enter Your Name" required class="box" maxlength="50">
                 <input type="email" name="email" placeholder="Enter Your Username" required class="box" maxlength="50">
                 <input type="password" name="pass" placeholder="Enter Your Password" required class="box"
                     maxlength="50">
-                <input type="submit" value="Login" name="" id="" class="login-btn">
-                <p>Don't have an account?
+
+                <input type="password" name="cpass" placeholder="Comfirm Your Password" required class="box"
+                    maxlength="50">
+                <input type="submit" value="Create My Account" name="" id="" class="login-btn">
+                <p>Already have an account?
                     <br />
-                    <a href="register.html"> Register Now</a>
+                    <a href="login.html" target="_blank"> Login Now</a>
                 </p>
 
             </form>
