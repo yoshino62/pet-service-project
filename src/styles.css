@@ -1858,6 +1858,18 @@ footer #follow {
   margin-top: 1.5rem;
 }
 
+#user-deatails .user button.cart-btn {
+  background-color: var(--accent-color);
+  color: var(--text-dark);
+  font-size: 0.9rem;
+  display: block;
+  border: none;
+  border-radius: 80px;
+  padding: 10px 20px;
+  margin: 40px auto;
+  transition: all 200ms ease-in-out;
+}
+
 /* Media Query */
 
 @media (max-width: 1024px) {
