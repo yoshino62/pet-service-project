@@ -278,3 +278,12 @@ ScrollReveal().reveal("#register-header .page-header p", {
   ...scrollRevealOption,
   delay: 500,
 });
+
+ScrollReveal().reveal("#profile-header .page-header h1", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal("#profile-header .page-header p", {
+  ...scrollRevealOption,
+  delay: 500,
+});
