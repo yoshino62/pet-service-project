@@ -1822,6 +1822,42 @@ footer #follow {
   text-decoration: underline;
 }
 
+/*  Profile page / user info section */
+#user-deatails .user {
+  border: 1px solid var(--text-light);
+  border-radius: 4px;
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#user-deatails .user img {
+  width: 100%;
+  height: 20rem;
+  object-fit: contain;
+  margin: 2rem 0;
+}
+
+#user-deatails .user p {
+  color: var(--text-dark);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 1rem 0;
+}
+
+#user-deatails .user p span {
+  color: var(--text-dark);
+}
+
+#user-deatails .user p i {
+  color: var(--text-dark);
+  margin-right: 1.5rem;
+}
+
+#user-deatails .user .address {
+  margin-top: 1.5rem;
+}
+
 /* Media Query */
 
 @media (max-width: 1024px) {
