@@ -2693,4 +2693,14 @@ footer #follow {
   #register-header .page-header p {
     font-size: 18px;
   }
+
+  /* Profile page starts here */
+  /*  Profile page / Page header */
+  #profile-header .page-header h1 {
+    font-size: 32px;
+  }
+
+  #profile-header .page-header p {
+    font-size: 18px;
+  }
 }
