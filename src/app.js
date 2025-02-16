@@ -287,3 +287,8 @@ ScrollReveal().reveal("#profile-header .page-header p", {
   ...scrollRevealOption,
   delay: 500,
 });
+
+ScrollReveal().reveal("#user-deatails .user", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
