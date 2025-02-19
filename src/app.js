@@ -14,6 +14,12 @@ if (close) {
   });
 }
 
+profile = document.querySelector("#header .profile");
+
+document.querySelector("#user-btn").onclick = () => {
+  profile.classList.toggle("active");
+};
+
 const scrollRevealOption = {
   distance: "50px",
   origin: "bottom",
