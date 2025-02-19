@@ -113,7 +113,7 @@ a {
   left: 16px;
 }
 
-#header .login-profile {
+#header .profile {
   background-color: var(--white);
   border: 1px solid var(--text-light);
   border-radius: 2px;
@@ -123,10 +123,18 @@ a {
   top: 120%;
   right: 2rem;
   width: 30rem;
+  /* display: none; */
+  animation: fadeIn 0.2s linear;
 }
 
-#header .login-profile .profile-btn,
-#header .login-profile .delete-btn {
+@keyframes fadeIn {
+  0% {
+    transform: translateY(1rem);
+  }
+}
+
+#header .profile .profile-btn,
+#header .profile .delete-btn {
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 4px;
@@ -136,48 +144,48 @@ a {
   transition: all 250ms ease-in-out;
 }
 
-#header .login-profile .profile-btn {
+#header .profile .profile-btn {
   background-color: var(--secondary-accent-color);
   color: var(--text-dark);
 }
 
-#header .login-profile .delete-btn {
+#header .profile .delete-btn {
   background-color: #f8a9a0;
   color: var(--text-dark);
 }
 
-#header .login-profile .profile-btn:hover {
+#header .profile .profile-btn:hover {
   background-color: var(--white);
   border: 1px solid var(--accent-color);
   color: var(--text-dark);
   cursor: pointer;
 }
 
-#header .login-profile .delete-btn:hover {
+#header .profile .delete-btn:hover {
   background-color: var(--white);
   border: 1px solid #f8a9a0;
   color: var(--text-dark);
   cursor: pointer;
 }
 
-#header .login-profile .login-name {
+#header .profile .login-name {
   color: var(--text-dark);
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
-#header .login-profile .profile-account {
+#header .profile .profile-account {
   color: var(--text-dark);
   font-size: 1rem;
   letter-spacing: 2px;
   margin-top: 1rem;
 }
 
-#header .login-profile .profile-account a {
+#header .profile .profile-account a {
   color: var(--text-dark);
 }
 
-#header .login-profile .profile-account a:hover {
+#header .profile .profile-account a:hover {
   color: var(--primary-color);
   cursor: pointer;
   text-decoration: underline;
