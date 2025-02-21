@@ -123,8 +123,12 @@ a {
   top: 120%;
   right: 2rem;
   width: 30rem;
-  /* display: none; */
+  display: none;
   animation: fadeIn 0.2s linear;
+}
+
+#header .profile.active {
+  display: inline-block;
 }
 
 @keyframes fadeIn {
