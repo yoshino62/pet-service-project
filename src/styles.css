@@ -157,6 +157,7 @@ a {
 #header .profile .delete-btn {
   background-color: #f8a9a0;
   color: var(--text-dark);
+  font-weight: 600;
 }
 
 #header .profile .profile-btn:hover {
