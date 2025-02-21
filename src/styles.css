@@ -187,6 +187,7 @@ a {
 
 #header .profile .profile-account a {
   color: var(--text-dark);
+  font-weight: 700;
 }
 
 #header .profile .profile-account a:hover {
