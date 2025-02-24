@@ -1884,6 +1884,41 @@ footer #follow {
   transition: all 200ms ease-in-out;
 }
 
+/* Price page starts here */
+/*  Price page / Page header */
+#price-header .page-header {
+  background-color: var(--secondary-color);
+  color: var(--text-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-flow: column;
+  min-height: 180px;
+  margin-bottom: 4rem;
+}
+
+#price-header .page-header h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+#price-header .page-header p {
+  font-size: 24px;
+  color: var(--text-light);
+}
+
+#price-header .page-header p a {
+  color: var(--text-light);
+  transition: all 250ms ease-in-out;
+}
+
+#price-header .page-header p a:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 /* Media Query */
 
 @media (max-width: 1024px) {
