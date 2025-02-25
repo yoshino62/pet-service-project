@@ -298,3 +298,12 @@ ScrollReveal().reveal("#user-deatails .user", {
   ...scrollRevealOption,
   delay: 1000,
 });
+
+ScrollReveal().reveal("#price-header .page-header h1", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal("#price-header .page-header p", {
+  ...scrollRevealOption,
+  delay: 500,
+});
