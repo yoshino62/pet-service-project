@@ -1887,7 +1887,7 @@ footer #follow {
 /* Price page starts here */
 /*  Price page / Page header */
 #price-header .page-header {
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-accent-color);
   color: var(--text-dark);
   display: flex;
   align-items: center;
