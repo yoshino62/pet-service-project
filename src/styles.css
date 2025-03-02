@@ -1919,6 +1919,31 @@ footer #follow {
   text-decoration: underline;
 }
 
+/* Price section */
+
+.pricing-table {
+  width: 80%;
+  border-collapse: collapse;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 6px 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.pricing-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.pricing-table tr:hover {
+  background-color: #f9f9f9;
+}
+
 /* Media Query */
 
 @media (max-width: 1024px) {
