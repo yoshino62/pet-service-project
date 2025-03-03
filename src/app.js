@@ -307,3 +307,23 @@ ScrollReveal().reveal("#price-header .page-header p", {
   ...scrollRevealOption,
   delay: 500,
 });
+
+ScrollReveal().reveal("#price-page .section-header h2", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+ScrollReveal().reveal("#price-page .price-details h3", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
+
+ScrollReveal().reveal("#price-page .price-details p", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
+
+ScrollReveal().reveal("#price-page .price-grid", {
+  ...scrollRevealOption,
+  delay: 2000,
+});
