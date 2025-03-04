@@ -1943,7 +1943,7 @@ footer #follow {
 }
 
 #price-page .price-grid {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 #price-page .pricing-table {
@@ -1958,7 +1958,7 @@ footer #follow {
   color: var(--text-dark);
   text-align: left;
   border-bottom: 1px solid #ddd;
-  padding: 6px 8px;
+  padding: 10px 12px;
 }
 
 #price-page .pricing-table th {
@@ -2825,5 +2825,30 @@ footer #follow {
 
   #user-deatails .user button.cart-btn {
     font-size: 0.8rem;
+  }
+
+  /* Profile page starts here */
+  /*  Profile page / Page header */
+  #price-header .page-header h1 {
+    font-size: 32px;
+  }
+
+  /* Price section */
+
+  #price-page h2 {
+    font-size: 1.8rem;
+  }
+
+  #price-page h3 {
+    font-size: 1.4rem;
+  }
+
+  #price-page p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  #price-page .price-grid {
+    padding: 0 1.2rem;
   }
 }
