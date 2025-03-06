@@ -1021,6 +1021,24 @@ footer #follow {
   color: var(--text-dark);
 }
 
+.requirement-btn button {
+  background-color: #f8a9a0;
+  color: var(--text-dark);
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #f8a9a0;
+  border-radius: 80px;
+  padding: 10px 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.requirement-btn button:hover {
+  background-color: var(--white);
+  color: #f8a9a0;
+  cursor: pointer;
+}
+
 /* store page | store header */
 
 #store-header .page-header {
