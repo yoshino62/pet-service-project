@@ -1988,6 +1988,37 @@ footer #follow {
   background-color: #f9f9f9;
 }
 
+/* Requirement page starts here */
+#requirement-page .requirement-details {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#requirement-page .requirement-details p,
+#requirement-page .requirement-details h3 {
+  color: var(--text-dark);
+  margin: 1.2rem 0;
+}
+
+#requirement-page .requirement-details p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+#requirement-page .requirement-details h3 {
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#requirement-page .requirement-page-image {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 50rem;
+}
+
 /* Media Query */
 
 @media (max-width: 1024px) {
