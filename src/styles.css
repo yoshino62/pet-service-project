@@ -2019,6 +2019,10 @@ footer #follow {
   width: 50rem;
 }
 
+#requirement-page .requirement-details ul {
+  list-style: none;
+}
+
 /* Media Query */
 
 @media (max-width: 1024px) {
