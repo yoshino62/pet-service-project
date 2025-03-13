@@ -2015,12 +2015,24 @@ footer #follow {
 
 #requirement-page .requirement-page-image {
   display: block;
-  margin: 0 auto 20px auto;
+  margin: 2rem auto 1.5rem auto;
   width: 50rem;
 }
 
+#requirement-page .requirement-details h4 {
+  color: var(--text-dark);
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 1rem 0 0 2.5rem;
+}
+
 #requirement-page .requirement-details ul {
-  list-style: none;
+  padding: 0rem 0 0 4rem;
+}
+
+#requirement-page .requirement-details li {
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 /* Media Query */
