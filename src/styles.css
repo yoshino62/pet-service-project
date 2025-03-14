@@ -2007,16 +2007,31 @@ footer #follow {
 }
 
 #requirement-page .requirement-details h3 {
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 1.5;
   text-align: center;
   padding: 1rem 0;
 }
 
+#requirement-page .req-intro {
+  display: flex;
+  gap: 2rem;
+}
+
+#requirement-page .req-intro p,
 #requirement-page .requirement-page-image {
+  flex: 1;
+}
+
+#requirement-page .req-intro p {
+  margin-top: 4rem;
+}
+
+#requirement-page .requirement-page-image img {
   display: block;
   margin: 2rem auto 1.5rem auto;
-  width: 50rem;
+  max-width: 100%;
+  border-radius: 0.2rem;
 }
 
 #requirement-page .requirement-details h4 {
