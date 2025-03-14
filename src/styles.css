@@ -2046,6 +2046,7 @@ footer #follow {
 }
 
 #requirement-page .requirement-details li {
+  color: var(--text-dark);
   font-size: 1.2rem;
   line-height: 1.5;
 }
