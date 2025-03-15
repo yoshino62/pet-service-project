@@ -327,3 +327,8 @@ ScrollReveal().reveal("#price-page .price-grid", {
   ...scrollRevealOption,
   delay: 2000,
 });
+
+ScrollReveal().reveal("#requirement-page .requirement-details", {
+  ...scrollRevealOption,
+  delay: 2000,
+});
