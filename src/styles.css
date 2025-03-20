@@ -1988,6 +1988,25 @@ footer #follow {
   background-color: #f9f9f9;
 }
 
+#price-page .book-btn button {
+  background-color: var(--secondary-accent-color);
+  color: var(--text-dark);
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid var(--secondary-accent-color);
+  border-radius: 80px;
+  margin-top: 3rem;
+  padding: 10px 20px;
+  transition: all 200ms ease-in-out;
+}
+
+#price-page .book-btn button:hover {
+  background-color: var(--white);
+  color: var(--text-dark);
+  border: 1px solid var(--secondary-accent-color);
+}
+
 /* Requirement page starts here */
 #requirement-page .requirement-details {
   width: 100%;
