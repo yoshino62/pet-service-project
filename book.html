@@ -72,9 +72,15 @@
         <section id="login-form-container">
 
             <form action="" method="post">
-                <h3>Create My Account</h3>
-                <input type="text" name="name" placeholder="Enter Your Name" required class="box" maxlength="50">
-                <input type="email" name="email" placeholder="Enter Your Username" required class="box" maxlength="50">
+                <h3>Book Appointment</h3>
+                <select name="method" class="booking-method-box" required>
+                    <option value="" disabled selected>Select Type of Your pet --</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                </select>
+                <input type="text" name="name" placeholder="Enter Pet's Name" required class="box" maxlength="50">
+                <input type="text" name="name" placeholder="Enter Pet's Breed" required class="box" maxlength="50">
+                <input type="text" name="weight" placeholder="Enter Pet's Weight" required class="box" maxlength="50">
                 <input type="password" name="pass" placeholder="Enter Your Password" required class="box"
                     maxlength="50">
                 <input type="password" name="cpass" placeholder="Comfirm Your Password" required class="box"
